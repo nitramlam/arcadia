@@ -11,3 +11,4 @@ if (!isset($_SESSION['email']) || !isset($_SESSION['role'])) {
     error_log("Utilisateur authentifié : " . $_SESSION['email'] . " avec le rôle " . $_SESSION['role']);
 }
 ?>
+
