@@ -63,7 +63,7 @@ if (isset($_SESSION['email']) && isset($_SESSION['LAST_ACTIVITY'])) {
                         <img class="connexionImg" src="/includes/imgHeader/deconnecter.png" alt="se déconnecter">
                     </a>
                 <?php else : ?>
-                    <a href="/connexion/connexion.php">
+                    <a href="/www/connexion/connexion.php">
                         <img class="connexionImg" src="/www/includes/imgHeader/connecter.png" alt="se connecter">
                     </a>
                 <?php endif; ?>
