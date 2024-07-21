@@ -37,13 +37,13 @@
             <h3  class="titreHabitats" >LES HABITATS</h3>
             <p class="loremHabitats">Explorez notre variété d'animaux dans des habitats reconstitués : la jungle luxuriante, les marais préservés et la savane durablement aménagée.</p>
             <img class="toucan"  src="assets/toucan-accueil.png" alt="Image d'un toucan">
-            <a href="/habitats/index.php" class="flecheHabitats"><img src="assets/fleches-accueil.png" alt="Fleche pour voir les habitats"></a>
+            <a href="/www//habitats/index.php" class="flecheHabitats"><img src="assets/fleches-accueil.png" alt="Fleche pour voir les habitats"></a>
         </div>
         <div class="gridAnimaux">
             <h3 class="animauxTitre">LES ANIMAUX</h3>
             <p class="animauxLorem">Rencontrez nos résidents exceptionnels, élevés dans un environnement respectueux de leur bien-être et de la nature.</p>
             <img class="paresseux" src="assets/paresseux-accueil.png" alt="Image d'un paresseux">
-            <a href="/animaux/index.php" class="flecheAnimaux"><img src="assets/fleches-accueil.png" alt="Fleche pour voir les animaux"></a>
+            <a href="/www//animaux/index.php" class="flecheAnimaux"><img src="assets/fleches-accueil.png" alt="Fleche pour voir les animaux"></a>
         </div>
         <div class="gridImage">
             <img src="assets/zoo.png" alt="Image du zoo">

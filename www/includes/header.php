@@ -37,14 +37,14 @@ if (isset($_SESSION['email']) && isset($_SESSION['LAST_ACTIVITY'])) {
     <header>
         <div class="container header-container">
             <a href="/">
-                <img class="logo" src="/includes/imgHeader/logo.png" alt="logo">
+                <img class="logo" src="/www/includes/imgHeader/logo.png" alt="logo">
             </a>
             <nav>
                 <ul>
-                    <li><a href="/animaux/index.php">Les animaux</a></li>
-                    <li><a href="/habitats/index.php">Les habitats</a></li>
-                    <li><a href="/services/index.php">Les Services</a></li>
-                    <li><a href="/contact/index.php">Contact</a></li>
+                    <li><a href="/www//animaux/index.php">Les animaux</a></li>
+                    <li><a href="/www//habitats/index.php">Les habitats</a></li>
+                    <li><a href="/www//services/index.php">Les Services</a></li>
+                    <li><a href="/www//contact/index.php">Contact</a></li>
                     <?php if (isset($_SESSION['email'])) : ?>
                         <?php if ($_SESSION['role'] == 'administateur') : ?>
                             <li><a href="/dashboardAdmin/dashboardAdmin.php">Tableau de bord</a></li>
