@@ -23,7 +23,7 @@
         <h2 class="servicesTitre">LES SERVICES</h2>
         <p class="servicesLorem">Découvrez notre restaurant, notre petit train et bénéficiez d'un guide gratuit pour enrichir votre expérience au Zoo Écologique de la Forêt de Brocéliande.</p>
         <img  class="autruche"  src="assets/autruche-accueil.png" alt="autruche">
-       <a href="/services/index.php" class="flecheServices"> <img  src="assets/fleches-accueil.png" alt="Fleche pour voir les animaux"></a>
+       <a href="/www/services/index.php" class="flecheServices"> <img  src="assets/fleches-accueil.png" alt="Fleche pour voir les animaux"></a>
 
     </div>
     <!-- End of icons section -->
