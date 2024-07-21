@@ -2,14 +2,12 @@
 
 function getDatabaseConnection()
 {
-    $DBuser = $_ENV['DB_USERNAME'];
-    $DBpass = $_ENV['DB_PASSWORD'];
-    $DBhost = $_ENV['DB_HOST'];
-    $DBname = $_ENV['DB_DATABASE'];
+    $DBuser = 'arcadia';
+    $DBpass = 'martin37!';
     $pdo = null;
 
     try {
-        $database = "mysql:host=$DBhost;dbname=$DBname;charset=utf8mb4";
+        $database = 'mysql:host=arcadia33.mysql.database.azure.com;dbname=arcadia;charset=utf8mb4';
         $options = [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
