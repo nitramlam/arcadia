@@ -2,7 +2,7 @@
 
 function getDatabaseConnection()
 {
-    $DBuser = 'arcadia';
+    $DBuser = 'arcadia@arcadia33';
     $DBpass = 'martin37!';
     $pdo = null;
 
@@ -11,7 +11,8 @@ function getDatabaseConnection()
         $options = [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-            PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8mb4"
+            PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8mb4",
+            PDO::MYSQL_ATTR_SSL_CA => '/home/site/wwwroot/Microsoft_RSA_Root_Certificate_Authority_2017.crt'
         ];
         $pdo = new PDO($database, $DBuser, $DBpass, $options);
     } catch (PDOException $e) {
@@ -21,3 +22,4 @@ function getDatabaseConnection()
     return $pdo;
 }
 ?>
+
