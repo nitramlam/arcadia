@@ -30,8 +30,8 @@ if (isset($_SESSION['email']) && isset($_SESSION['LAST_ACTIVITY'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/includes/header.css">
-    <link rel="stylesheet" href="/includes/footer.css">
+    <link rel="stylesheet" href="/www//includes/header.css">
+    <link rel="stylesheet" href="/www//includes/footer.css">
 </head>
 <body>
     <header>
