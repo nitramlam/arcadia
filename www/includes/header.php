@@ -36,7 +36,7 @@ if (isset($_SESSION['email']) && isset($_SESSION['LAST_ACTIVITY'])) {
 <body>
     <header>
         <div class="container header-container">
-            <a href="/">
+            <a href="/www/accueil/index.php">
                 <img class="logo" src="/www/includes/imgHeader/logo.png" alt="logo">
             </a>
             <nav>
