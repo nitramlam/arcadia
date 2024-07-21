@@ -13,7 +13,7 @@ if (isset($_SESSION['email']) && isset($_SESSION['LAST_ACTIVITY'])) {
         // Détruire la session si elle a expiré
         session_unset();
         session_destroy();
-        header("Location: /www//connexion/connexion.php");
+        header("Location: /www/connexion/connexion.php");
         exit();
     }
 
@@ -41,17 +41,17 @@ if (isset($_SESSION['email']) && isset($_SESSION['LAST_ACTIVITY'])) {
             </a>
             <nav>
                 <ul>
-                    <li><a href="/www//animaux/index.php">Les animaux</a></li>
-                    <li><a href="/www//habitats/index.php">Les habitats</a></li>
-                    <li><a href="/www//services/index.php">Les Services</a></li>
-                    <li><a href="/www//contact/index.php">Contact</a></li>
+                    <li><a href="/www/animaux/index.php">Les animaux</a></li>
+                    <li><a href="/www/habitats/index.php">Les habitats</a></li>
+                    <li><a href="/www/services/index.php">Les Services</a></li>
+                    <li><a href="/www/contact/index.php">Contact</a></li>
                     <?php if (isset($_SESSION['email'])) : ?>
                         <?php if ($_SESSION['role'] == 'administateur') : ?>
-                            <li><a href="/www//dashboardAdmin/dashboardAdmin.php">Tableau de bord</a></li>
+                            <li><a href="/www/dashboardAdmin/dashboardAdmin.php">Tableau de bord</a></li>
                         <?php elseif ($_SESSION['role'] == 'employe') : ?>
-                            <li><a href="/www//dashboardEmploye/dashboardEmploye.php">Tableau de bord</a></li>
+                            <li><a href="/www/dashboardEmploye/dashboardEmploye.php">Tableau de bord</a></li>
                         <?php elseif ($_SESSION['role'] == 'veterinaire') : ?>
-                            <li><a href="/www//dashboardVeto/dashboardVeto.php">Tableau de bord</a></li>
+                            <li><a href="/www/dashboardVeto/dashboardVeto.php">Tableau de bord</a></li>
                         <?php endif; ?>
                     <?php endif; ?>
                 </ul>
@@ -59,20 +59,20 @@ if (isset($_SESSION['email']) && isset($_SESSION['LAST_ACTIVITY'])) {
                
             <div class="connexion">
                 <?php if (isset($_SESSION['email'])) : ?>
-                    <a href="/www//connexion/logout.php">
+                    <a href="/www/connexion/logout.php">
                         <img class="connexionImg" src="/includes/imgHeader/deconnecter.png" alt="se déconnecter">
                     </a>
                 <?php else : ?>
                     <a href="/connexion/connexion.php">
-                        <img class="connexionImg" src="/www//includes/imgHeader/connecter.png" alt="se connecter">
+                        <img class="connexionImg" src="/www/includes/imgHeader/connecter.png" alt="se connecter">
                     </a>
                 <?php endif; ?>
             </div>
             <div class="mobile-link">
                 <?php if (isset($_SESSION['email'])) : ?>
-                    <a href="/www//connexion/logout.php" class="connect-link">Se déconnecter</a>
+                    <a href="/www/connexion/logout.php" class="connect-link">Se déconnecter</a>
                 <?php else : ?>
-                    <a href="/www//connexion/connexion.php" class="connect-link">Se connecter</a>
+                    <a href="/www/connexion/connexion.php" class="connect-link">Se connecter</a>
                 <?php endif; ?>
             </div>
         </div>
