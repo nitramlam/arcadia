@@ -5,33 +5,33 @@
                     <h5 class="text-center">Les animaux</h5>
                     <br>
                     <ul class="list-unstyled text-center">
-                        <li><a href="/animaux/index.php">tous les animaux </a></li>
-                        <li><a href="/animaux/index.php">par habitats</a></li>
+                        <li><a href="/www//animaux/index.php">tous les animaux </a></li>
+                        <li><a href="/www//animaux/index.php">par habitats</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <h5 class="text-center">Les habitats</h5>
                     <br>
                     <ul class="list-unstyled text-center">
-                        <li><a href="/habitats/index.php">jungle</a></li>
-                        <li><a href="/habitats/index.php">marais</a></li>
-                        <li><a href="/habitats/index.php">savane</a></li>
+                        <li><a href="/www//habitats/index.php">jungle</a></li>
+                        <li><a href="/www//habitats/index.php">marais</a></li>
+                        <li><a href="/www//habitats/index.php">savane</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <h5 class="text-center">Les services</h5>
                     <br>
                     <ul class="list-unstyled text-center">
-                        <li><a href="/services/index.php">notre restaurant</a></li>
-                        <li><a href="/services/index.php">visite guidée</a></li>
-                        <li><a href="/services/index.php">petit train</a></li>
+                        <li><a href="/www//services/index.php">notre restaurant</a></li>
+                        <li><a href="/www//services/index.php">visite guidée</a></li>
+                        <li><a href="/www//services/index.php">petit train</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <h5 class="text-center">Contact</h5>
                     <br>
                     <ul class="list-unstyled text-center">
-                        <li><a href="#">se connecter</a></li>
+                        <li><a href="/connexion/connexion.php">se connecter</a></li>
                         <li><a href="/contact/index.php">nous contacter</a></li>
                     </ul>
                 </div>
