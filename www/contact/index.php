@@ -10,7 +10,7 @@
 
     <div class="form-container">
         <div class="image">
-            <img src="/animaux/ostrich-4828594_640.jpg" alt="Ostrich">
+            <img src="/www/animaux/ostrich-4828594_640.jpg" alt="Ostrich">
         </div>
      
         <form id="contactForm">

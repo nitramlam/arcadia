@@ -1,10 +1,6 @@
 <?php require_once (__DIR__ . '/../includes/header.php'); ?>
-<head>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
 
+<link rel="stylesheet" href="style.css">
 <main>
     <!-- Intro section -->
     <div class="intro">
@@ -64,4 +60,3 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
 
 <?php require_once (__DIR__ . '/../includes/footer.php'); ?>
-</body>
